@@ -12,10 +12,14 @@ public class BoundedMain {
 //        BoundedQueue queue = new BoundedQueueV1(2);
 //        BoundedQueue queue = new BoundedQueueV2(2);
 //        BoundedQueue queue = new BoundedQueueV3(2);
-        BoundedQueue queue = new BoundedQueueV4(2);
+//        BoundedQueue queue = new BoundedQueueV4(2);
+//        BoundedQueue queue = new BoundedQueueV5_1(2);
+//        BoundedQueue queue = new BoundedQueueV5_2(2);
+//        BoundedQueue queue = new BoundedQueueV5_3(2);
+        BoundedQueue queue = new BoundedQueueV5_4(2);
 
-//        producerFirst(queue);
-        consumerFirst(queue);
+        producerFirst(queue);
+//        consumerFirst(queue);
     }
 
     private static void producerFirst(BoundedQueue queue) {
